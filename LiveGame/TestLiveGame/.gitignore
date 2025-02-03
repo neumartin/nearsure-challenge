@@ -1,0 +1,57 @@
+# .NET Core build outputs
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vs/
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+Thumbs.db
+
+# ASP.NET temporary files
+# Windows
+App_Data/
+
+# Rider/Visual Studio for Mac
+.idea/
+
+# User-specific files
+.vs2017/
+.vs2019/
+
+# Azure Functions and Web Jobs
+local.settings.json
+*.azurefunctions
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET temporary files
+appsettings.Development.json
+
+# Publish folder
+publish/
+
+# JetBrains Rider
+.idea/
+
+# VS for Mac
+.vscode/
+
+# ASP.NET Core
+appsettings.json
