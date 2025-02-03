@@ -16,7 +16,8 @@ List<List<bool>> board = new List<List<bool>>()
 };
 
 string id;
-IBoardManager boardManager = new BoardManager(board, "/Users/martin/Temp/nearsure.data", out id);
+//IBoardManager boardManager = new BoardManager(board, "/Users/martin/Temp/nearsure.data", out id);
+IBoardManager boardManager = new BoardManager(board, "", out id);
 
 DrawBoard(id);
 

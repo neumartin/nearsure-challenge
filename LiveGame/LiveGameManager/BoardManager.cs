@@ -32,9 +32,6 @@ public class BoardManager : IBoardManager
 
     public BoardManager(List<List<bool>> board, string pathFileSave, out string boardId)
     {
-        if (string.IsNullOrWhiteSpace((pathFileSave)))
-            throw new Exception("Path file save is empty");
-
         _pathFileSave = pathFileSave;
 
         if (File.Exists(pathFileSave))
